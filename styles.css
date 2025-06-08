@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f9f9f9;
+  cursor: grab;
+}
+
+.bubble {
+  fill: #d0d0d0;
+  stroke: #555;
+  stroke-width: 1;
+  transition: fill 0.2s;
+}
+
+.bubble:hover {
+  fill: #ffc107;
+}
+
+.hidden {
+  display: none;
+}
+
+#sidebar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 300px;
+  bottom: 0;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  padding: 1rem;
+  overflow-y: auto;
+}
