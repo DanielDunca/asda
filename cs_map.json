@@ -1,0 +1,28 @@
+[
+  {
+    "id": "algorithms",
+    "label": "Algorithms",
+    "weight": 5,
+    "activities": ["Theory"],
+    "depends_on": [],
+    "influences": ["programming_languages", "software_engineering"],
+    "uvt_notes": [],
+    "summary": "Study of methods for solving computational problems efficiently.",
+    "image": null,
+    "description": "Field of computer science.",
+    "problems": []
+  },
+  {
+    "id": "programming_languages",
+    "label": "Programming Languages",
+    "weight": 4,
+    "activities": ["Theory", "Design"],
+    "depends_on": ["algorithms"],
+    "influences": ["software_engineering"],
+    "uvt_notes": [],
+    "summary": "Design and implementation of programming languages.",
+    "image": null,
+    "description": "Field of computer science.",
+    "problems": []
+  }
+]
